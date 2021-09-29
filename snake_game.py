@@ -1,5 +1,6 @@
 import pygame
 import random
+import numpy
 import os
 
 pygame.init()
@@ -47,6 +48,7 @@ def welcome():
     pygame.quit()
     quit()
 
+    
 # Game Loop
 def game_loop():
     # Game Specific variable
