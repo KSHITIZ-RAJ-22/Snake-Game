@@ -1,3 +1,2 @@
 ###   Welcome to The Snake Game
--->This is a Snake game which we all loved playing in Nokia mobile back in 2000s.<br />
--->This game has a great and simple User Interface and is easy to use.
+  This snake game is made using pygame module in pyhton.<br /> This is a very basic snake game in which you have to make the snake eat food and gradually the size of the snake grows and the game ends when the snake bites itself.<br />  It also a score display area where it will store the maximum score.<br />  To store the score a txt file is used.<br />  The logic behind the growing size of snake is, whenever the snake eats the food (unit size array) then the size of array increases by one unit.<br />  And the collision of snake with its body is taken care by using the logic that if two elements of harry has same coordinate then there is a case of collision and the game is finished.
